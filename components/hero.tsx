@@ -37,7 +37,7 @@ export default function Hero() {
   className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto text-center"
 >
   Салон красоты в Щелково.<br />
-  Лазерная эпиляция, электроэпиляция, депиляция, косметология, массаж, пирсинг.<br />
+  "Эпиляция, депиляция, косметология, массаж, и др.".<br />
   Работает ежедневно.
 </motion.p>
 
