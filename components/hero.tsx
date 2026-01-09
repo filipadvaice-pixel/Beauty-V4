@@ -31,13 +31,15 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p 
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto"
-        >
-          Салон красоты в Щёлково. Лазерная эпиляция, электроэпиляция, депиляция, космеотология, массаж, пирсинг. Работаем ежедневно.
-        </motion.p>
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.2 }}
+  className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto text-center"
+>
+  Салон красоты в Щелково.<br />
+  Лазерная эпиляция, электроэпиляция, депиляция, косметология, массаж, пирсинг.<br />
+  Работает ежедневно.
+</motion.p>
 
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
