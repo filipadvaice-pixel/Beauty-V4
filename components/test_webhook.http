@@ -1,0 +1,26 @@
+### Тест webhook YClients - Отзыв после визита
+POST https://n8n-amstardam.tw1.su/webhook/yclients-webhook
+Content-Type: application/json
+
+{
+  "resource": "record",
+  "event": "update",
+  "data": {
+    "id": 999999,
+    "status": 1,
+    "visit_attendance": 1,
+    "client": {
+      "id": 123456,
+      "name": "Тестовый Клиент",
+      "phone": "79000000000",
+      "visits_count": 1
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Лазерная эпиляция"
+      }
+    ],
+    "comment": "Запись через Telegram бота. TG: @testuser chat_id: 123456789"
+  }
+}
